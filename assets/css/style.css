@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #9e1818eb;
+    height: 100%; 
+    background-blend-mode: darken;
+    margin: 0;
+    padding: 0;
+}
+
+.mySlides {
+    width: 100%;
+    height: 400px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond|Cardo:400italic);
+
+#little {
+    font-size: 12px;
+    float:right;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.heading-correct-pronounciation {
+    margin: auto;
+    text-align: center;
+    position: relative;
+    margin-right: 520px;
+}
+
+
+h1 {
+    color:black;
+    font-family: 'Cardo', serif;
+    font-size: .9em;
+    font-weight: normal;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    line-height: 2.2em;
+}
+
+em {
+    font-family: 'EB Garamond', serif;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    display: block;
+    font-style:normal;
+    padding-top: 0.1em;
+    text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+}
+
+.bottom {
+    font-size: 1.5em;
+    letter-spacing: 0.07em;
+    font-size: 1em;
+    display: block;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin-top: 200px;
+    border-bottom: 2px solid #E6EAEA;
+    padding-top: 5px;
+}
+
+.btn-primary {
+    margin-top: 25px;
+}
+
+.w3-content {
+    margin-bottom: 200px;
+}
+
+.pos-f-t{
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid #E6EAEA;
+}
+
+#icon {
+    height: 20px;
+    widows: 20px;
+}
+
+#end {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn {		
+    display: inline-block;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 8px 0 #1a74a1, 0 15px 20px rgba(0,0,0,.35);
+    -moz-box-shadow: 0 8px 0 #1a74a1, 0 15px 20px rgba(0,0,0,.35);
+    box-shadow: 0 8px 0 #1a74a1, 0 15px 20px rgba(0,0,0,.35);
+    -webkit-transition: -webkit-box-shadow .2s ease-in-out;
+    -moz-transition: -moz-box-shadow .2s ease-in-out;
+    -o-transition: -o-box-shadow .2s ease-in-out;
+    transition: box-shadow .2s ease-in-out;
+}
+  
+.btn span {	
+    display: inline-block;
+    padding: 10px  20px;
+    font-family: "cooper-black-std-1", "cooper-black-std-2", Helvetica, Arial, sans-serif;
+    line-height: 1;
+    text-shadow: 0 -1px 1px rgba(19,65,88,.8);
+    background: #3194c6;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3194c6), to(#5bacd6));
+    background: -moz-linear-gradient(#3194c6, #5bacd6);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,.15);
+    -moz-box-shadow: inset 0 -1px 1px rgba(255,255,255,.15);
+    box-shadow: inset 0 -1px 1px rgba(255,255,255,.15);
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    -moz-transition: -moz-transform .2s ease-in-out;
+    -o-transition: -o-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+}
+
+.col-sm-6 {
+    margin-left: 480px;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+  
+
+ 
+  
+
+

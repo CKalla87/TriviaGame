@@ -1,29 +1,85 @@
 <!DOCTYPE hmtl>
 <html lang= "en-us">
     <head>
-        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Music Trivia Game</title>
-        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="shortcut icon" href="assets/images/favicon.ico" type="favicon/image">
     </head>
     <body>
-            <audio id="SoLoud" src="assets/audio/SoLoud.mp3" loop="loop"></audio>
-
-
-
-
+        <!--My Bands Audio File For Game-->
+        <audio id="SoLoud" src="assets/audio/SoLoud.mp3" loop="loop"></audio>
         
+        <!--Navbar-->
+        <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-light p-4">
+                    <a class="dropdown-item" href="https://en.wikipedia.org/wiki/History_of_music">Music In History</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Baroque_music">Classical Music</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://www.rollingstone.com/music/lists/50-best-songs-of-the-nineties-w432840">Music Of The 90's</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://www.today.com/popculture/music">Music Of Today</a>
+                </div>
+            </div>
+            <nav class="navbar navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span><p id="little">Menu</p>
+                </button>
+                <div class="sandbox sandbox-correct-pronounciation">
+                    <h1 class="heading heading-correct-pronounciation">The<em>Music</em>Trivia Game</h1>
+                </div>
+            </nav>
+        </div>
         
+        <!--Carousel-->
+        <div class="w3-content w3-section">
+            <img class="mySlides" src="assets/images/thirdeyec.png">
+            <img class="mySlides" src="assets/images/piano.gif">
+            <img class="mySlides" src="assets/images/beatles.png">
+        </div>
         
+        <!--Buttons Using Bootstraps and Grid-->
+        <div class="container">
+            <div class="row"> 
+                <div class="col-sm-6">
+                    <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                </div>
+            </div>
+            
+            <div class="row"> 
+                <div class="col-sm-6">
+                    <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                </div>
+            </div>
+            
+            <div class="row"> 
+                <div class="col-sm-6">
+                    <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                </div>
+            </div>
+            
+            <div class="row"> 
+                <div class="col-sm-6">
+                    <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                </div>
+            </div>
+        </div>
         
+        <!--Calling In Javascrip File-->
         <script tabindex="text/javascript" src="assets/javascript/app.js"></script>
-
-        <footer>
-            <div id="footerDesign">
-                <a href="https://ckalla87.github.io/Responsive-Portfolio/">About Chris Kalla</a> | <a href="https://github.com/CKalla87/Responsive-Portfolio">Github Repo</a>
-                <br>
-                &#64; Copyright 2018 Music Trivia Game!
+        
+        <!--Footer-->
+        <footer class="footer">
+            <div class="container">
+                <a href="https://ckalla87.github.io/Responsive-Portfolio/"><img id="icon" src="assets/images/mysite.png" alt=""></a> | <a href="https://github.com/CKalla87/Responsive-Portfolio"><img id="icon" src="assets/images/git.png" alt=""></a>
+                <p id="end">&#64; Copyright 2018 Music Trivia Game</p>
             </div>
         </footer>
     </body>
