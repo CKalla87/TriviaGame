@@ -133,6 +133,7 @@ $(document).ready(function() {
             stop();
             alert("I guess you are not a  music master!")
             current++
+            key++
             loadQuestion();
             reset();
         }
@@ -167,7 +168,7 @@ $(document).ready(function() {
     //Game Start
     function start() {
         buttonReset ()
-        $("#welcome").html("<h3>" + " Welcome to the Music Trivia Game, let's see if you know your stuff! " + "</h3>");
+        $("#welcome").html("<h3>" + " Welcome to the Music Trivia Game, let's see what you know! " + "</h3>");
         $("#start").html("Click The Button To Start The Game! ");
         $("#start").on("click", function() {
             $(this).hide();
