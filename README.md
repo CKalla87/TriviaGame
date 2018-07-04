@@ -3,6 +3,8 @@
 
 Below are instructions on how to play the game:
 
+https://ckalla87.github.io/TriviaGame.html/
+
 1. The game will start with the click of a button.
 
 2. You will have 15 seconds to answer each question.
